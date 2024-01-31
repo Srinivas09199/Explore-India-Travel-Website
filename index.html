@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore-India-Travel-Website-Outlook</title>
+
+    <!-- csss link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="C:/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+        <div class="fas fa-bars" id="menu-bar"></div>
+        <a href="#" class="logo"><span>Explore</span>India</a>
+
+        <nav class="navbar">
+            <a href="#home" class="">HOME</a>
+            <a href="#booking" class="">BOOK</a>
+            <a href="#packages" class="">PACKAGES</a>
+            <a href="#services" class="">SERVICES</a>
+            <a href="#gallery" class="">GALLERY</a>
+            <a href="#contact" class="">CONTACT</a>
+        </nav>
+
+        <!--Icons-->
+        <div class="icons">
+            <i class="fas fa-search" id="search-Btn"></i>
+            <i class="fas fa-user" id="login-Btn"></i>
+        </div>
+
+        <!--Searchbar Container-->
+        <form action="" class="search-bar-container">
+            <input type="search" name="" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!--Login Section-->
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h2>Login</h2>
+            <input type="email" name="" class="box" placeholder="Enter your Email..." id="">
+            <input type="password" name="" class="box" placeholder="Enter Password..." id="">
+            <input type="submit" value="Login now" class="btn"><br>
+            <input type="checkbox" name="" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">Register Now</a></p>
+        </form>
+    </div>
+
+    <!--Home Section Starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Your journey begins now!</h3>
+            <!-- <h3>Best holiday destinations!</h3> -->
+            <!-- <h3>taking u to wondrous journey!</h3> -->
+            <p>Discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="./images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="/images/video-3.mp4"></span>
+            <span class="vid-btn" data-src="/images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="/images/production ID_3970964.mp4"></span>
+            <span class="vid-btn" data-src="/images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="/images/paris.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="./images/vid-2.mp4" loop autoplay muted id="video-silder"></video>
+        </div>
+    </section>
+
+    <!--Booking Section-->
+    <section class="booking" id="booking">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row" id="height">
+            <div class="image">
+                <img src="./images/img-3.jpg" alt="" srcset="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <h3>Where to</h3>
+                    <input type="text" name="" placeholder="place name" id="">
+                </div>
+
+                <div class="inputbox">
+                    <h3>How many</h3>
+                    <input type="text" name="" placeholder="Number of people" id="">
+                </div>
+
+                <div class="inputbox">
+                    <h3>Arraival</h3>
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="inputbox">
+                    <h3>Leaving</h3>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" value="book now" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!--Packages Section-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/p-1.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Goa</h3>
+                    <p>The Arabian Sea on the western coast of India, Goa is a tropical paradise that captivates visitors with its sun-soaked beaches, 
+                        lively culture, and a unique blend of colonial history and modern vibrancy. Renowned for its golden sands, 
+                        pulsating nightlife, and welcoming locals, Goa stands as a destination that offers both relaxation and exhilarating experiences.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:25k- <span>50k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-2.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Manali</h3>
+                    <p>Perched in the lap of the mighty Himalayas, Manali, in the Indian state of Himachal Pradesh, 
+                        is a captivating destination that seamlessly blends natural beauty, adventure, and a tranquil mountain ambiance. 
+                        Renowned for its snow-capped peaks, lush valleys, and vibrant local culture, 
+                        Manali beckons travelers to experience the best of both adrenaline-pumping activities and serene retreats.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:30k- <span>60k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-3.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Alleppey</h3>
+                    <p> The serene backwaters of Kerala, Alleppey, also known as Alappuzha, is a mesmerizing destination that effortlessly captures the essence of tranquility, 
+                        culture, and the unique beauty of the South Indian landscape. Renowned for its intricate network of canals, 
+                        houseboats, and vibrant local life, Alleppey offers a rejuvenating escape for travelers seeking an authentic Kerala experience.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:25k- <span>30k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-4.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Coorg</h3>
+                    <p> The lush hills and valleys of the Western Ghats in Karnataka, Coorg, also known as Kodagu, stands as a captivating haven for nature enthusiasts, 
+                        adventure seekers, and those yearning for a tranquil escape. This picturesque destination is renowned for its coffee plantations, 
+                        mist-covered landscapes, and a rich tapestry of biodiversity.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:25k- <span>35k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-5.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Havelock Island</h3>
+                    <p>The azure waters of the Bay of Bengal, Havelock Island is a paradisiacal retreat that beckons travelers with its pristine white sandy beaches, 
+                        crystal-clear turquoise waters, and vibrant coral reefs. Part of the Andaman and Nicobar Islands, 
+                        Havelock captivates visitors with its natural beauty and offers a perfect blend of relaxation and adventure.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:30k- <span>50k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/p-6.jpeg" alt="" srcset="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Auli</h3>
+                    <p>Nestled in the majestic Garhwal Himalayas of Uttarakhand, Auli stands as a pristine gem, 
+                        captivating visitors with its snow-covered slopes, panoramic mountain vistas, and a tranquil mountain atmosphere. 
+                        Known as one of India's premier skiing destinations, Auli seamlessly combines adventure, natural beauty, and serene landscapes.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                    <div class="price">cost:25k- <span>50k</span></div><br>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section-->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotel</h3>
+                <p>Discover a range of budget-friendly hotels that don't compromise on comfort. Whether you're looking for a cozy guesthouse in the heart of Delhi or a serene retreat in the Himalayas, we've got options to suit every traveler's preferences and budget. </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Indulge your taste buds with our curated selection of affordable dining options. From street food gems to local eateries and hidden culinary treasures, we guide you to the best spots for authentic Indian flavors.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>saftey guide</h3>
+                <p>Your safety is our top priority. Our comprehensive safety guide provides valuable tips and information to ensure a worry-free journey. From travel advisories to local safety measures, we've got you covered</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the india</h3>
+                <p>We can provide serivices all over india wherever you want to go your holidays planning trips.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane-departure"></i>
+                <h3>fastest travel</h3>
+                <p>Time is of the essence, and we understand that. Our platform offers streamlined services for fast-track travel arrangements. From quick hotel bookings to last-minute adventures.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Embark on thrilling adventures across India with our specially curated itineraries. Whether you're seeking a trek through the Western Ghats, a desert safari in Rajasthan, or water sports in Goa, we have the perfect adventure for every adrenaline junkie. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Gallery Section-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/g-1.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-6.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-8.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-3.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-2.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-7.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-5.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-4.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/g-9.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p></p><br>
+                    <a href="http://" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Review Section-->
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper mySwiper review-silder">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/vinay.jpg" alt="" srcset="">
+                        <h3>Vinay</h3>
+                        <p>I recently had the pleasure of exploring the vibrant and enchanting destination of Goa, and I must say, it exceeded all my expectations. </p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/madhav.jpg" alt="" srcset="">
+                        <h3>Madhav</h3>
+                        <p>My recent visit to Manali was nothing short of a magical journey into the heart of the Himalayas. Nestled amidst snow-capped peaks and lush green valleys, Manali offered an enchanting escape that left me captivated and rejuvenated.</p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/akash.jpg" alt="" srcset="">
+                        <h3>Akash</h3>
+                        <p>My recent sojourn to Alleppey, often referred to as the "Venice of the East," was an idyllic escape into the serene beauty of Kerala's backwaters. </p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/madhu.jpg" alt="" srcset="">
+                        <h3>Madhu</h3>
+                        <p>My recent journey to Coorg, also known as Kodagu, left me enchanted with its lush landscapes, aromatic coffee plantations, and the warm embrace of the Western Ghats. Nestled in the heart of Karnataka, Coorg proved to be a perfect blend of natural beauty, rich culture, and rejuvenating tranquility.</p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./images/bunny.jpg" alt="" srcset="">
+                        <h3>Bunny</h3>
+                        <p>My recent visit to Havelock Island in the Andaman archipelago was nothing short of a tropical dream come true. With its pristine white sandy beaches, crystal-clear turquoise waters, and vibrant coral reefs, Havelock is an idyllic escape that promises an unforgettable island experience.</p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src=".images/raju.jpg" alt="" srcset="">
+                        <h3>Raju</h3>
+                        <p>My recent trip to Auli, nestled in the breathtaking Garhwal Himalayas, was an exhilarating experience that combined adventure, natural beauty, and a tranquil mountain atmosphere.</p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src=".images/" alt="" srcset="">
+                        <h3></h3>
+                        <p></p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src=".images/" alt="" srcset="">
+                        <h3></h3>
+                        <p></p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src=".images/" alt="" srcset="">
+                        <h3></h3>
+                        <p></p>
+                        <div class="stars">
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                            <i class="fas fa-stars"></i>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./images/contact2.jpg" alt="" srcset="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" name="" placeholder="name" id="">
+                    <input type="email" name="" placeholder="email" id="">
+                </div>
+
+                <div class="inputbox">
+                    <input type="number" name="" placeholder="number" id="">
+                    <input type="text" name="" placeholder="subject" id="">
+                </div>
+                <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!--Brand Container-->
+    <section class="brandcontainer">
+        <div class="swiper mySwiper brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/images/oyo1.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="/images/australia.jpg" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="/images/paytm.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="/images/IMG_20220109_103610.jpg" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="/images/tours.jpg" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="/images/6.jpg" alt="" srcset=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>At ExploreIndia, we believe that travel is not just about reaching a destination; it's about the experiences, stories, 
+                    and memories that unfold along the way. We are passionate about connecting explorers with the world's wonders, 
+                    creating a platform where every journey is an adventure and every adventure is a story waiting to be told.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Hyderbad</a>
+                <a href="#">Vijayawada</a>
+                <a href="#">Vizag</a>
+                <a href="#">Banglore</a>
+                <a href="#">Chennai</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Gmail</a>
+            </div>
+        </div>
+        <h1 class="credit">created by <span>SAI SRINIVAS</span> <i class="fas fa-copyright"></i> all rights reserved!</h1>
+    </section>
+
+    <!--JavaScript File-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/Jsfile.js"></script>
+</body>
+</html>
